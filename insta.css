@@ -1,0 +1,102 @@
+.suren-nav a{
+    float: right;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.suren-nav{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0%;
+    border-color:2px solid black;
+    box-shadow: 0 0 14px gray;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+    
+}
+.main-post {
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+    height: 10%;
+    border-color: black;
+    margin-left: 23%;
+    margin-top: 5%;
+    padding: auto;
+    box-shadow:0 0 14px  gray;
+}
+.main-post div{
+    padding-bottom: 5%;
+}
+.main-post img{
+    padding-left: 30px;
+}
+body{
+    background-color: rgba(197, 211, 197, 0.151);
+}
+.suren-feed{
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+    border-color: black;
+    margin-left: 23%;
+    margin-top: 5%;
+    padding: auto;
+    box-shadow:0 0 14px  gray;
+}
+@media only screen and (max-width: 600px) {
+    
+    .suren-nav a{
+        float: right;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+    }
+    .suren-nav{
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        margin-top: 0%;
+        border-color:2px solid black;
+        box-shadow: 0 0 14px gray;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+    }
+    .main-post {
+        background-color: white;
+        border-radius: 10px;
+        float: left;
+        width: 90%;
+        height: 10%;
+        border-color: black;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: auto;
+        box-shadow:0 0 14px  gray;
+    }
+    .suren-feed{
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    width: 95%;
+    border-color: black;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: auto;
+    box-shadow:0 0 14px  gray;
+}
+
+  }
